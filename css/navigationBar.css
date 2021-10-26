@@ -1,0 +1,45 @@
+/**************NAVIGATION BAR CSS******************/
+.navbar {
+    background-color: rgb(20, 19, 19);
+    display: block;
+    height: 20px;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    width: 100%;
+}
+
+.nav-list {
+    color: rgb(235, 241, 241);
+    list-style-type: none;
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    overflow: hidden;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar a.nav-list:hover {
+    color: chartreuse;
+}
+
+.nav-list__Home {
+    margin-left: 0px;
+}
+
+.nav-list__Team-members {
+    left: 125px;
+}
+
+.nav-list__Vaccinator {
+    left: 250px;
+}
+
+.nav-list__Login {
+    right: 100px;
+}
+

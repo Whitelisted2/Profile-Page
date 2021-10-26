@@ -1,0 +1,48 @@
+body {
+    margin: auto 0;
+}
+
+h1 {
+    color: #E80484;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 30px;
+}
+
+h3 {
+    color:#E80484;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#h3-logo {
+    color: cornsilk;
+}
+
+
+
+/******************PAGE CONTENT CSS**************/
+.main {
+    margin-top: 60px;
+}
+
+.container {
+    background-color: #E3FDFD;
+    display: block;
+    left: 0;
+    width: 100%;
+}
+
+.circular {
+    border-radius: 10%;
+}
+
+#logo {
+    display: block;
+    padding-bottom: 10px;
+    width: 70%;
+    z-index: -1;
+}
+
+
